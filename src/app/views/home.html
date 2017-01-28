@@ -1,0 +1,44 @@
+
+<div class="container">
+	<div style="color: #777;background-color:#FAFAFA;text-align:center;padding:50px 80px;text-align: justify;"> 
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="" >Home</a></li>
+					<li role="presentation" routerLinkActive="active"><a routerLink="/projects" >Projects</a></li>
+					<li role="presentation" routerLinkActive="active"><a routerLink="/contact" >Contact</a>   </li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">Amit Prakash Singh</h3>
+		</div>
+		
+		<div class="jumbotron">
+			<!--h1>Jumbotron heading</h1 -->
+			
+			<div class="media">
+				<div class="media-left">
+					<a href="#">
+						<img class="media-object" src="photo.jpg" width="125px" height="125px" alt="...">
+					</a>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">About Me</h4>
+					<div style="text-align:left">Lead Java Developer with experience in Spring, Play2, AngularJS, Scala, JavaScript and NodeJS </div>
+				</div>
+			</div>			
+			
+		</div>
+		
+		<div class="row marketing">
+		
+			<div class="col-lg-12">
+				<router-outlet> </router-outlet>
+			</div>
+					
+		</div>
+		
+		<footer class="footer">
+			<p>Technology/skills: Scala, AngularJs2, JEE, Spring, Spring-MVC, Git, Maven, NodeJS, JavaScript</p>
+		</footer>
+		</div>
+    </div> <!-- /container -->

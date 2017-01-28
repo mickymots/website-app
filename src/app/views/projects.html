@@ -1,0 +1,60 @@
+<div *ngFor="let project of profile.projects">
+
+	
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<table class='table table-condensed'>
+				<tr> <td> Client/Company </td> <td>{{project.client}} / {{project.company}}</td> </tr>
+				<tr> <td> Project </td> <td>{{project.name}} </td> </tr>
+				<tr> <td> Project Duration </td> <td> {{project.startdate}}    -  {{project.endDate}}    </td> </tr>
+				<tr> <td> Assigned Role </td> <td> {{project.role}}     </td> </tr>
+			</table>
+		</div>
+		<div class="panel-body">
+			<table class='table table-condensed'>
+	
+		
+				<tbody>
+				<tr>
+					<td style='font-size: 10pt;' align='left' colspan='3'>
+						<b>Project Description</b>
+					</td>
+				</tr>
+				<tr>
+					<td style='font-size: 10pt;' colspan='3'>
+						 {{project.description}}     
+					</td>
+				</tr>
+				
+				<tr>
+					<td style='font-size: 10pt;' align='left' colspan='3'>
+						<b>Responsibilities</b>
+					</td>
+				</tr>
+				<tr>
+					<td style='font-size: 10pt;' colspan='3'>
+						 {{project.responsibilities}}     
+					</td>
+				</tr>
+				
+				<tr>
+					<td style='font-size: 10pt;' align='left' colspan='3'>
+						<b>Major Achievements</b>
+					</td>
+				</tr>
+				<tr>
+					<td style='font-size: 10pt;' colspan='3'>
+						 {{project.achievements}}     
+					</td>
+				</tr>
+				</tbody>
+				
+			</table>
+		</div>
+</div>
+
+
+
+ <bR>
+	
+</div>
