@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* Master Styles */
 h1 {
   color: #369;
@@ -31,6 +32,21 @@ body {
 
 .thead-inverse{
 	background-color: #eee;
+}
+
+.header-panel{
+color: #000;
+  background-color:#bbbbbb;
+  text-align:center;
+ 
+}
+
+.body-container{
+ color: #000;
+  background-color:#CCCCCC;
+  text-align:center;
+  padding:50px 50px;
+  text-align: justify;
 }
 
 .table th, .table td{

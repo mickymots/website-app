@@ -1,7 +1,7 @@
 "use strict";
 exports.profileSummary = {
     "summary": ["Associate Manager at Accenture IDC – Solutions Workforce since Sep 2011",
-        "Total Experience: 10 Years, 5 Months ",
+        "Total Experience: 11 Years, 6 Months ",
         "Technical skills: Scala, Spring, AngularJS2, Hibernate, NodeJS ",
         "Development Tools: InteliJ ,Eclipse, Spring Source Tool Suite, NPM, Atom",
         "Web & Application Server: Tomcat, Weblogic and Websphere ",
